@@ -1,0 +1,13 @@
+{
+  "name": "tracking-bot",
+  "version": "0.0.1",
+  "description": "BOT for slack integration",
+  "main": "app.js",
+  "author": "Joy",
+  "license": "Tracking.Team",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "request": "2.56.x"
+  }
+}
