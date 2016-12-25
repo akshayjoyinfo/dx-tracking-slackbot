@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "BOT for slack integration",
   "main": "app.js",
+  "scripts" : {
+    "start" : "node app.js"
+  },
   "author": "Joy",
   "license": "Tracking.Team",
   "dependencies": {
