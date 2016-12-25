@@ -1,9 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
-var sql = require('mssql');
  
 var app = express();
-var port = process.env.PORT||1337;
+var port = process.env.PORT || 1337;
  
 // body parser middleware
 app.use(bodyParser.urlencoded({ extended: true }));
