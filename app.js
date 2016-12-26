@@ -13,7 +13,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/getClickByRef',function (req, res){
-  var clickRefId = req.query;
+  var clickRefId = req.query.clickId;
   console.log(clickRefId);
   // Select query to iterate all the Portal and retrive the exist or not exist
   var resultId = "xxxx-"+clickRefId; 
